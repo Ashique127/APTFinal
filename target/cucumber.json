@@ -1,0 +1,82 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Validate google search is working",
+        "description": "",
+        "id": "check-google-search-functionality;validate-google-search-is-working",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4017811100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "browser is open",
+            "match": {
+              "location": "SteeppDefinaaa.browser_is_open()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4928178400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user is on google search page",
+            "match": {
+              "location": "SteeppDefinaaa.user_is_on_google_search_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 331152900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters a text in google search box",
+            "match": {
+              "location": "SteeppDefinaaa.user_enters_a_text_in_google_search_box()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2352597200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "hits Enter",
+            "match": {
+              "location": "SteeppDefinaaa.hits_Enter()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6437463600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user is navigated to the Search Reuslts Page",
+            "match": {
+              "location": "SteeppDefinaaa.user_is_navigated_to_the_Search_Reuslts_Page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Check google search functionality",
+    "description": "",
+    "id": "check-google-search-functionality",
+    "keyword": "Feature",
+    "uri": "Gogle.feature"
+  }
+]
